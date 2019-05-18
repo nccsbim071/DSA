@@ -5,11 +5,7 @@ using System.Text;
 namespace DSA.Sorting_Techniques
 {
     public class MergeSort
-    {
-        public MergeSort(int arraySize)
-        {
-        }
-        
+    {   
         public static int[] SortAscending(int[] a)
         {
             if (a.Length == 1)
