@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DSA
+namespace DSA.Abstract_Data_Structures
 {
     public class Queue
     {

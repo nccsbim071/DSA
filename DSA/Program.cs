@@ -1,53 +1,21 @@
 ﻿using System;
+using DSA.Sorting_Techniques;
 
 namespace DSA
 {
     class Program
     {
-
         static void Main(string[] args)
         {
-            Queue queue = new Queue();
+            //int[] a = new int[] { 9, 3, 2, 1, 0 };
+            //Console.WriteLine($"Input Array: {String.Join(",", a)}");
+            //a = BubbleSort.SortAscending(a);
+            //Console.WriteLine($"Input Array: {String.Join(",", a)}");
 
-            //Enqueue
-            queue.Enqueue(6);
-            queue.Enqueue(2);
-            queue.Enqueue(8);
-            queue.Enqueue(9);
-            queue.Enqueue(12);
-            queue.DisplayQueue();
-
-            //Dequeue
-            queue.Dequeue();
-            queue.Dequeue();
-            queue.DisplayQueue();
-
-            //Enqueue
-            queue.Enqueue(9);
-            queue.Enqueue(10);
-            queue.DisplayQueue();
-
-            int? temp = queue.Dequeue();
-            Console.WriteLine($"Dequeue: {(temp.HasValue ? temp.Value.ToString() : string.Empty)}");
-            temp = queue.Dequeue();
-            Console.WriteLine($"Dequeue: {(temp.HasValue ? temp.Value.ToString() : string.Empty)}");
-
-            //Enqueue
-            queue.Enqueue(7);
-            queue.Enqueue(8);
-            queue.DisplayQueue();
-
-
-            temp = queue.Dequeue();
-            Console.WriteLine($"Dequeue: {(temp.HasValue ? temp.Value.ToString() : string.Empty)}");
-            temp = queue.Dequeue();
-            Console.WriteLine($"Dequeue: {(temp.HasValue ? temp.Value.ToString() : string.Empty)}");
-            temp = queue.Dequeue();
-            Console.WriteLine($"Dequeue: {(temp.HasValue ? temp.Value.ToString() : string.Empty)}");
-            temp = queue.Dequeue();
-            Console.WriteLine($"Dequeue: {(temp.HasValue ? temp.Value.ToString() : string.Empty)}");
-            temp = queue.Dequeue();
-            Console.WriteLine($"Dequeue: {(temp.HasValue ? temp.Value.ToString() : string.Empty)}");            
+            //int[] a = new int[] { 15, 1, 18, 3, 45 };
+            //Console.WriteLine($"Input Array: {String.Join(",", a)}");
+            //a = BubbleSort.SortDescending(a);
+            //Console.WriteLine($"Input Array: {String.Join(",", a)}");
 
             Console.ReadKey();
         }
