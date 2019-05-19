@@ -59,7 +59,7 @@ namespace DSA
             //Console.WriteLine($"Output Array: {String.Join(",", a)}");
             #endregion
 
-            #region ShellSort
+            #region Shell Sort
             //int[] a = new int[] { 4, 6, 3, 2, 1, 9, 7 };
             //Console.WriteLine($"Input Array: {String.Join(",", a)}");
             //a = ShellSort.SortAscending(a);
@@ -69,6 +69,18 @@ namespace DSA
             //Console.WriteLine($"Input Array: {String.Join(",", a)}");
             //a = ShellSort.SortDescending(a);
             //Console.WriteLine($"Output Array: {String.Join(",", a)}");
+            #endregion
+
+            #region Quick Sort 
+            int[] a = new int[] { 4, 6, 3, 2, 1, 9, 7 };
+            Console.WriteLine($"Input Array: {String.Join(",",a)}");
+            a = QuickSort.SortAscending(a);
+            Console.WriteLine($"Output Array: {String.Join(",", a)}");
+
+            a = new int[] { 4, 6, 3, 2, 1, 9, 7 };
+            Console.WriteLine($"\n\nInput Array: {String.Join(",", a)}");
+            a = QuickSort.SortDescending(a);
+            Console.WriteLine($"Output Array: {String.Join(",", a)}");
             #endregion
 
             Console.ReadKey();
