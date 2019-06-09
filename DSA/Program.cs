@@ -1,5 +1,6 @@
 ﻿using System;
 using DSA.Sorting_Techniques;
+using System.Collections.Generic;
 
 namespace DSA
 {
@@ -72,15 +73,15 @@ namespace DSA
             #endregion
 
             #region Quick Sort 
-            int[] a = new int[] { 4, 6, 3, 2, 1, 9, 7 };
-            Console.WriteLine($"Input Array: {String.Join(",",a)}");
-            a = QuickSort.SortAscending(a);
-            Console.WriteLine($"Output Array: {String.Join(",", a)}");
+            //int[] a = new int[] { 4, 6, 3, 2, 1, 9, 7 };
+            //Console.WriteLine($"Input Array: {String.Join(",",a)}");
+            //a = QuickSort.SortAscending(a);
+            //Console.WriteLine($"Output Array: {String.Join(",", a)}");
 
-            a = new int[] { 4, 6, 3, 2, 1, 9, 7 };
-            Console.WriteLine($"\n\nInput Array: {String.Join(",", a)}");
-            a = QuickSort.SortDescending(a);
-            Console.WriteLine($"Output Array: {String.Join(",", a)}");
+            //a = new int[] { 4, 6, 3, 2, 1, 9, 7 };
+            //Console.WriteLine($"\n\nInput Array: {String.Join(",", a)}");
+            //a = QuickSort.SortDescending(a);
+            //Console.WriteLine($"Output Array: {String.Join(",", a)}");
             #endregion
 
             Console.ReadKey();
